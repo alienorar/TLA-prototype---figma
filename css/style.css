@@ -102,7 +102,7 @@ justify-content: space-between;
 
 .hero_title{
     padding: 30px 0;
-
+color: aliceblue;
 }
 .box{
     width: 330px;
@@ -118,6 +118,7 @@ border: 1px solid transparent;
 gap: 10px;
 transition: 0.6s;
 box-shadow: 5px 5px 5px  #46DBBF;
+color: aliceblue;
 }
 .box button{
     border-radius: 10px;
@@ -140,7 +141,7 @@ box-shadow: 5px 5px 5px  #46DBBF;
 
 .benefits_title{
     padding: 30px 0;
-
+color: aliceblue;
 }
 .benefits{
     display: flex;
