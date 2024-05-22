@@ -1,0 +1,179 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: #2A3C4E;
+}
+.container{
+    margin: 0 auto; 
+    max-width: 1280px;
+    width: 100%;
+}
+/* nav{
+  position: fixed;
+  top: 0;
+left: 0;  
+} */
+.navbar{
+    width: 100%;
+    height: 60px;
+    display: flex;
+justify-content: space-between;
+position:fixed;
+top: 0;
+left: 0;
+align-items: center;
+padding: 10px 180px;
+border-bottom: 1px solid #46DBBF;
+box-shadow: 5px 5px 5px  #46DBBF;
+}
+.nav_menu ul{
+display: flex;
+gap: 30px;
+list-style: none;
+}
+.nav_menu a{
+    text-decoration: none;
+    color: white;
+    font-family: Lato;
+font-size: 18px;
+font-weight: 500;
+line-height: 21.6px;
+border-bottom: 1px solid transparent;
+transition: 0.4s;
+}
+
+.nav_menu a:hover{
+border-bottom: 2px solid #46DBBF;
+font-size:26px;
+}
+.nav_actions{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.nav_lang{
+    display: flex;
+    gap: 10px;
+
+}
+.nav_lang a{
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.6px;
+    text-decoration: none;
+    color: aliceblue;
+}
+.nav_btn button{
+    padding: 10px 24px 10px 24px;
+    gap: 10px;
+    border-radius: 6px;
+    border: 1.5px solid transparent;
+background-color: transparent;
+color: aliceblue;
+
+}
+.nav_btn button:hover{
+    border:2.5px solid #FF9B52;
+    transition: 0.4s;
+    font-size: 18px;
+}
+.option{
+    margin-top: 100px;
+  
+}
+.option a{
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23.4px;
+color:#46DBBF;
+}
+.hero_boxes{
+display: flex;
+gap: 20px;
+align-items: center;
+justify-content: space-between;
+}
+
+.hero_title{
+    padding: 30px 0;
+
+}
+.box{
+    width: 330px;
+/* height: 199px; */
+border-radius: 24px;
+background-color:#365f8861 ;
+font-size: 20px;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 30px;
+border: 1px solid transparent;
+gap: 10px;
+transition: 0.6s;
+box-shadow: 5px 5px 5px  #46DBBF;
+}
+.box button{
+    border-radius: 10px;
+   background-color: #46DBBF; 
+   color:#070707;
+    display: none;
+    padding: 10px 40px;
+    transition: all linear 0.5s;
+    border: none;
+    font-size: 16px;
+    color: aliceblue;
+    transition: 0.6s;
+}
+.box:hover{
+    border: 1px solid #46DBBF;
+}
+.box:hover button{
+   display: block;
+}
+
+.benefits_title{
+    padding: 30px 0;
+
+}
+.benefits{
+    display: flex;
+    gap: 20px;
+}
+.benefit1{
+    width: 100%;
+display: flex;
+flex-direction: column;
+gap: 20px;
+
+
+}
+.industry{
+    padding: 30px;
+    border-radius: 24px;
+    background-color:#365f8861 ;
+    border:1px solid #46DBBF;
+    gap: 20px;
+    box-shadow: 5px 5px 5px  #46DBBF;
+}
+.industry h2{
+    font-family: Lato;
+font-size: 22px;
+font-weight: 700;
+line-height: 31.2px;
+color: #46DBBF;
+}
+.industry p{
+    font-family: Lato;
+font-size: 16px;
+font-weight: 500;
+line-height: 23.4px;
+text-align: left;
+color: azure;
+}
